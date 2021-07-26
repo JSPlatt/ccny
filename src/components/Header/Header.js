@@ -1,5 +1,4 @@
 import React from 'react'
-import HeaderLinks from '../HeaderLinks/HeaderLinks'
 import './Header.css'
 
 function Header() {
@@ -8,7 +7,6 @@ function Header() {
             <div className='header__top'>
                 <h1>Hello, Username!</h1>
             </div>
-            <HeaderLinks/>
         </div>
     )
 }

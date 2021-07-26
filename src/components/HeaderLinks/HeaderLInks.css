@@ -1,4 +1,6 @@
 .header__links {
     display: flex;
-    align-items: space-evenly;
+    width: 100%;
+   align-items: center;
+    background-color: #efefef;
 }
