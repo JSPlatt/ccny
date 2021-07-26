@@ -18,6 +18,7 @@
 
  .header__links {
     display: flex;
+    border-bottom: 1px solid #142d5d;
 } 
 
 .header__links > h2 {
