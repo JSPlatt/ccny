@@ -7,9 +7,12 @@ import ToDo from './ToDo'
 function Dashboard() {
     return (
         <div className='dashboard'>
-            <h1>DASHBOARD</h1>
-            <Graph/>
-            <ToDo/>
+           <div className='dashboard__left'>
+                <Graph/>
+            </div> 
+            <div className='dashboard__right'>
+                <ToDo/>
+            </div>
         </div>
 
     )
