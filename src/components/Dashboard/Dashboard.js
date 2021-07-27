@@ -1,13 +1,15 @@
 import React from 'react'
 import './Dashboard.css'
 
-function Body() {
+function Dashboard() {
     return (
-        <div className='body'>
-        
+        <div className='dashboard'>
+            <h1>DASHBOARD</h1>
+            <h1>GRAPH COMPONENT</h1>
+            <h2>TOP TO DO COMPONENT</h2>
         </div>
 
     )
 }
 
-export default Body
+export default Dashboard
