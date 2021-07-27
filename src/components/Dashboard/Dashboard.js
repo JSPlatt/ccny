@@ -1,12 +1,15 @@
 import React from 'react'
 import './Dashboard.css'
+import Graph from './Graph'
+import ToDo from './ToDo'
+
 
 function Dashboard() {
     return (
         <div className='dashboard'>
             <h1>DASHBOARD</h1>
-            <h1>GRAPH COMPONENT</h1>
-            <h2>TOP TO DO COMPONENT</h2>
+            <Graph/>
+            <ToDo/>
         </div>
 
     )
