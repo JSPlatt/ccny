@@ -10,11 +10,21 @@ function Header() {
                 <h1> 🌿 WELCOME, USER! 🌿 </h1>
             </div>
             <div className='header__links'>
-                <h2>|  DASHBOARD  |</h2> 
-                <h2>|  TASK MANAGEMENT  |</h2> 
-                <h2>|  DOCUMENT CENTER  |</h2> 
-                <h2>|  VENDOR TRACKER  |</h2> 
-                <h2>|  NOTES  |</h2>
+            <Link to='/'>
+               <span> <h2>DASHBOARD</h2></span>
+            </Link>
+            <Link to='/tasks'>
+                <span><h2>TASK MANAGEMENT</h2></span>
+            </Link>
+            <Link to='/documentcenter'>
+                <span><h2>DOCUMENT CENTER</h2></span>
+            </Link>
+            <Link to='vendortracker'>
+                <span><h2>VENDOR TRACKER</h2></span> 
+            </Link>
+            <Link to='/notes'>
+                <h2>NOTES</h2>
+            </Link>
             </div>
         </div>
     )
