@@ -11,7 +11,7 @@ function Header() {
             </div>
             <div className='header__links'>
             <Link to='/'>
-               <span> <h2>DASHBOARD</h2></span>
+               <span><h2>DASHBOARD</h2></span>
             </Link>
             <Link to='/tasks'>
                 <span><h2>TASK MANAGEMENT</h2></span>
@@ -19,7 +19,7 @@ function Header() {
             <Link to='/documentcenter'>
                 <span><h2>DOCUMENT CENTER</h2></span>
             </Link>
-            <Link to='vendortracker'>
+            <Link to='/vendortracker'>
                 <span><h2>VENDOR TRACKER</h2></span> 
             </Link>
             <Link to='/notes'>
