@@ -10,18 +10,18 @@ import DocumentCenter from './components/Header/Document Center/DocumentCenter';
 function App() {
   return (
     <Router>
-    <Header/>
     <div className="App">
+      <Header/>
       <Dashboard/>
     <Switch>
-      <Route path="/" component={Dashboard}/>
-      <Route path="/tasks" component={TaskManagement}/>
-      <Route path="/notes" component={Notes}/>
-      <Route path="/vendortracker" component={VendorTracker}/>
-      <Route path="/documentcenter" component={DocumentCenter}/>
+      <Route exact path="/" component={Dashboard}/>
+      <Route exact path="/tasks" component={TaskManagement}/>
+      <Route exact path="/notes" component={Notes}/>
+      <Route exact path="/vendortracker" component={VendorTracker}/>
+      <Route exact path="/documentcenter" component={DocumentCenter}/>
     </Switch>
     </div>
-  </Router>
+  </Router> 
 
   );
 }
