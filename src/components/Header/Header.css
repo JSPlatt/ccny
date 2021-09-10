@@ -24,10 +24,10 @@
     border-bottom: 1px solid #142d5d;
 } 
 
-/* .header__links > h2 {
-    color: #142d5d;
-    width: 100%;
-    align-items: space-evenly;
-    margin-left: 60px;
-    padding: 10px;
-} */
+.header__content {
+    display: flex;
+    flex: 0.25;
+    
+}
+
+
