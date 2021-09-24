@@ -10,11 +10,11 @@ function Header() {
                 <h1> 🌿 WELCOME, USER! 🌿 </h1>
             </div>
             <div className='header__links'>
-                <div className='header__content'><Link to='/'><span><h2>DASHBOARD</h2></span></Link></div>
-                <div className='header__content'><Link to='/tasks'><span><h2>TASK MANAGEMENT</h2></span></Link></div>
-                <div className='header__content'><Link to='/documentcenter'><span><h2>DOCUMENT CENTER</h2></span></Link></div>
-                <div className='header__content'><Link to='/vendortracker'><span><h2>VENDOR TRACKER</h2></span> </Link></div>
-                <div className='header__content'><Link to='/notes'><h2>NOTES</h2></Link></div>
+                <div className='header__content'><Link to={'/'}><span><h2>DASHBOARD</h2></span></Link></div>
+                <div className='header__content'><Link to={'/tasks'}><span><h2>TASK MANAGEMENT</h2></span></Link></div>
+                <div className='header__content'><Link to={'/documentcenter'}><span><h2>DOCUMENT CENTER</h2></span></Link></div>
+                <div className='header__content'><Link to={'/vendortracker'}><span><h2>VENDOR TRACKER</h2></span> </Link></div>
+                <div className='header__content'><Link to={'/notes'}><h2>NOTES</h2></Link></div>
             </div>
         </div>
     )
