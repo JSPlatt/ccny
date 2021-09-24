@@ -9,7 +9,8 @@ import DocumentCenter from './components/Header/Document Center/DocumentCenter';
 
 function App() {
   return (
-    <Router>
+    //<Router>
+    <>
     <div className="App">
       <Header/>
       <Dashboard/>
@@ -21,7 +22,8 @@ function App() {
       <Route exact path="/documentcenter" component={DocumentCenter}/>
     </Switch>
     </div>
-  </Router> 
+    </>
+  //</Router>  
 
   );
 }
